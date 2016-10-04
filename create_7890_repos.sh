@@ -10,6 +10,7 @@ for repo in \
 0-lua \
 3g_stick \
 aclock \
+arduino_messagepack \
 arduino_sketches \
 audio_rxtx_gui \
 boilertest \
