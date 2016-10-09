@@ -33,6 +33,7 @@ metarepo \
 mman-win32 \
 nmea_parser \
 ntripclient \
+osc_spec \
 oscc \
 oscdoc \
 oschema \
