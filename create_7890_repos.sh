@@ -8,8 +8,10 @@ cd source/git/7890
 
 for repo in \
 0-lua \
+7890.github.io \
 3g_stick \
 aclock \
+ardour_cso \
 arduino_msgpack \
 arduino_sketches \
 audio_rxtx_gui \
@@ -17,6 +19,7 @@ boilertest \
 bskt \
 compiler \
 csnip \
+fastdb \
 gengraph \
 gig \
 jack_tools \
@@ -35,10 +38,14 @@ ladspa_sdk \
 librimage \
 liblo_luajit \
 libsndfile \
+libsoundio \
 lv2_utils \
 metarepo \
 mkgig \
 mman-win32 \
+mxe \
+mxe_build \
+mxe_deploy \
 native-utils \
 ng-jackspa \
 nmea_parser \
@@ -53,6 +60,7 @@ osrm-backend \
 osrm-bootstrap \
 pled \
 rfiddle \
+playblack.js \
 rmp3 \
 sc \
 sendkeys \
@@ -63,6 +71,8 @@ soundtank \
 squashfuse \
 spd \
 stringtemplate4 \
+sundown \
+tap-plugins \
 ttyd \
 txl \
 wavegraph; do git clone https://github.com/7890/${repo}; cd ${repo}; git pull; cd ..; done
